@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="potfolie">
+        <meta name="keywords" content="UX, UI, DESIGN, POTFOLIO">
+        <title> Jens christian Hecksher</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+        $("a").on('click', function(event) {
+
+        if (this.hash !== "") {
+        event.preventDefault();
+
+        var hash = this.hash;
+
+     
+        $('html, body').animate({
+        scrollTop: $(hash).offset().top
+        }, 800, function(){
+   
+        window.location.hash = hash;
+        });
+        } 
+        });
+        });
+        </script>
+    </head>
+
+    <body style="background-color: #f7f7f7;" id="top">
+
+
+        <div class = "p1"> 
+            <p>Jens Christian Hecksher <br> UX og UI designer </p>
+        </div>
+    
+            <hr>
+
+        <div class="p2">
+            <p> Multimedie design 1. Semester på <br> Zealand erhversakedemi</p> 
+        </div>
+
+        <div class= "p3">
+            <p> Med afsæt i indsigter skaber jeg kundecentriske designløsninger med focus på budskabsformidling, <br> UPS'er og konvertering.  </p>
+        </div>
+
+        <a href="profil.html"> 
+            <div class="profil">
+                <img src="profil.png" margin-top= "70px" display= "block" margin-right= "auto" margin-left= "auto" width= "200px" alt=""> 
+            </div>
+        </a>
+
+        <a href="#middle">
+            <img class= "arrowdown" src="arrowdown.png" alt="">
+        </a>
+
+        <a href="electra.html"> 
+            <div class="container" id="middle">
+                <img src="electra.png" class="forsideimg" alt="">
+                <div class="centered">
+                    <h3>ELECTA</h3>
+                </div>
+            </div>
+        </a>
+
+        <a href="standard-dans.html"> 
+            <div class="container">
+                <img src="standard.png" class="forsideimg" alt="">
+            <div class="centered"><h3>STANDARD DANCE</h3></div>
+        </div>
+        </a>
+
+        <a href="breakdance-studio.html"> 
+            <div class="container">
+                <img src="breakdance.png"  class="forsideimg" alt="">
+                <div class="centered"><h3>BREAKDANCE STUDIO</h3></div>
+            </div>
+        </a>
+
+        <a href="spacegym.html"> 
+            <div class="container">
+                <img src="spacegym.png"  class="forsideimg" alt=""> 
+            <div class="centered"><h3>SPACEGYM</h3></div>
+         </div>
+        </a>
+
+        <a href="nuuknoerrebro.html"> 
+            <div class="container">
+                    <img src="imi.png"  class="forsideimg" alt="">
+                <div class="centered"><h3>NUUK NØRREBRO</h3></div>
+            </div>
+        </a>
+
+        <a href="#top">
+            <img class= "arrowup" src="arrowup.png" alt="">
+        </a>
+
+        <img class="instagram" src="instagram.png2" alt="">
+
+
+        <footer>
+
+            <div class="footer-container">
+            <div class="footertext"><p>Jenschristianhecksher@gmail.com <br> +45 21767528 <br> <br> Balders Plads 3 st. tv <br> Københvan N 2200</p></div>
+            <img class="instagram" src="instagram.png" alt="">
+            <div class="footertext2"><p>Copyright © 2020 Jens Christian Hecksher <br> Alle rettigheder forbeholdes.</p></div>   
+            </div>     
+
+        </footer>
+
+    </body>
+</html>
