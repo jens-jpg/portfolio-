@@ -1,0 +1,365 @@
+:root{
+    --gray: #F7F7F7;
+    --White: #fafafa;
+    --black: #020202;
+    --textwhite: #a7a7a7;
+}
+
+.p1 {
+    font-family: "helvetica";
+    padding-top: 50px;
+    text-align: center;
+    font-size: 31px;
+    font-weight: lighter;
+}
+hr {
+    width: 180px;
+}
+.p2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "helvetica";
+    color: var(--textwhite);
+}
+.p3{
+    margin-top: 60px;
+    font-size: 18px;
+    text-align: center;
+    font-family: "helvetica";
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.profil{
+    margin-top: 60px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+}
+
+.mailknap{
+    margin-top: -30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: black;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+
+
+
+.arrowdown{
+    margin-top: 70px;
+    margin-bottom: 80px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50px;
+}
+
+.arrowup{
+    margin-top: 50px;
+    margin-bottom: -120px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.16);
+    color: white;
+  }
+
+
+.centered:hover {
+    transition: all 1s ease;
+    background-color: rgba(0, 0, 0, 0.60);
+    color: white;
+}
+.centered h3 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 30px;
+}
+.forsideimg{
+    margin-top: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+.backarrow{
+    width: 80px;
+    margin-left:20px;
+    margin-top: 10px;
+}
+
+.overskrift{
+    margin-left: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.overskrift2{
+    margin-top: -50px;
+    margin-left: 20px;
+    margin-bottom: -30px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.overskrift3{
+   margin-left: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.brødtext{
+    margin-left: 20px;
+    margin-top: -20px;
+    margin-right: 20px;
+    font-family: Helvetica;
+    font-weight:100;
+    font-size: 15px;
+    margin-bottom: 80px;
+}
+.brødtext1{
+    margin-left: 20px;
+    margin-top: -20px;
+    margin-right: 20px;
+    font-family: Helvetica;
+    font-weight:100;
+    font-size: 15px;
+}
+
+.brødtext3{
+    margin-left: 20px;
+    margin-top: -20px;
+    font-family: Helvetica;
+    font-weight:100;
+    font-size: 15px;
+    margin-bottom: 80px;
+}
+
+iframe {
+    width: 319px; 
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0;
+   
+}
+
+.mobilbillede {
+    float: right;    
+    width: 130px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+
+}
+.mobilbillede1 {
+    float: right;    
+    width: 130px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+
+}
+.webbillede {
+    margin-top: 30px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto; 
+    width: 350px;
+}
+
+.webbillede1 {
+    margin-top: 30px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto; 
+    width: 350px;
+}
+
+
+.footer-container{
+    background-color:#B5B5B5;
+    position: absolute; 
+    left: 0;
+    margin-bottom: 0px;
+    width: 100%;
+    margin-top: 150px;
+  }
+
+.footer-container1{
+    background-color:#B5B5B5;
+    position: absolute; 
+    left: 0;
+    margin-bottom: 0px;
+    width: 100%;
+    margin-top: 550px;
+  }
+
+.footertext{
+    text-align: left;
+    font-family: Helvetica;
+    margin-left: 13px;
+    font-size: 13px;
+  }
+
+.instagram{
+    display: block;
+    float: right;
+    margin-top: -85px;
+    margin-right:13px;
+}
+
+.footertext2{
+    margin-top: 50px;
+    color: #939393;
+    text-align: center;
+    font-family: Helvetica; 
+    font-size: 10px;
+
+    }
+
+@media only screen and (min-width: 1024px) {
+
+    .container-right {
+        max-width: 50%;
+        width: 500px;
+        float: right;
+        margin-top: -50px;
+        margin-right: 50px;
+        margin-left: -100px;
+    }
+
+    .container-left {
+        max-width: 50%;
+        float: left;
+        margin-bottom: 280px;
+    }
+
+
+    .webbillede {
+        width: 600px;
+    }
+
+    .mobilbillede {
+        margin-top: 30px;  
+        width: 200px;
+        margin-right: 200px;
+    
+    }
+    .mobilbillede1 {
+        float: right;    
+        margin-top: 50px;
+        width: 250px;
+        margin-bottom: 0px;
+        margin-right: 42%;
+    
+    }
+
+    .footer-container{
+        background-color:#B5B5B5;
+        position: absolute; 
+        left: 0;
+        margin-bottom: 0px;
+        width: 100%;
+        margin-top: 750px;
+    }
+
+    .brødtext{
+        margin-left: 20px;
+        margin-top: -20px;
+        margin-right: 200px;
+        font-family: Helvetica;
+        font-weight:100;
+        font-size: 15px;
+    }
+
+
+    .brødtext1{
+        margin-left: -80px;
+        margin-top: -20px;
+        margin-right: 20px;
+        font-family: Helvetica;
+        font-weight:100;
+        font-size: 15px;
+        margin-bottom:-10px ;
+    }
+
+
+    .brødtext3{
+        margin-left: 20px;
+        margin-top: -20px;
+        margin-right: 20px;
+        font-family: Helvetica;
+        font-weight:100;
+        font-size: 15px;
+    }
+    
+    .webbillede1 {
+        margin-top: 30px;
+        float: right;
+        margin-right: 22%;
+        width: 800px;
+    }
+
+
+    .forsideimg1{
+        margin-top: 20px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .arrowup{
+        margin-top: 50px;
+        margin-bottom: -700px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 50px;
+
+    }
+
+    .overskrift3{
+        margin-left: -80px;
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    iframe{
+        width: 600px; 
+        height: 400px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        border: 0;
+    } 
+
+}    
